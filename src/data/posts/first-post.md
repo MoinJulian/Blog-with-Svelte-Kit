@@ -1,9 +1,13 @@
 ---
-name: First Post
-teaser: This is my first Post
-date: 2023-08-10
+title: First post
+published: 2023-08-09
+updated: null
+description: Welcome to my blog!
 ---
 
-## This is my first post
+## Welcome to my blog!
 
-I will use the blog to share thoughts about web development and more, you will be able to find short story about what I've developed as well as information about what I'm currently working on.
+I've created this blog to share some thoughts about web development and other topics in the context of development if I need or want to.
+
+This post here has just been created for testing purposes.
+I will post [real content](/posts/golf-games) soon.

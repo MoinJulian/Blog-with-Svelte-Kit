@@ -23,7 +23,7 @@ body[data-theme='light'] {
 	--tag-font-color: var(--secondary-font-color);
 	--code-border-color: transparent;
 	--code-bg-color: #222;
-	--inline-code-color: var(--secondary-font-color);
+	--inline-code-bg-color: #eef0f2;
 	--h2-color: var(--accent-color);
 }
 
@@ -40,7 +40,7 @@ body[data-theme='dark'] {
 	--tag-font-color: var(--inverted-font-color);
 	--code-border-color: var(--border-color);
 	--code-bg-color: #111;
-	--inline-code-color: #333;
+	--inline-code-bg-color: #333;
 	--h2-color: skyblue;
 }
 
@@ -57,7 +57,11 @@ body {
 a {
 	color: inherit;
 	text-underline-offset: 0.1rem;
-	outline-color: var(--accent-color);
+}
+
+:is(a, button):focus-visible {
+	outline: 1px solid var(--accent-color);
+	outline-offset: 0.2rem;
 }
 
 p {
@@ -108,7 +112,6 @@ button {
 	border: none;
 	background: none;
 	cursor: pointer;
-	outline-color: var(--accent-color);
 }
 
 img {

@@ -1,6 +1,7 @@
 export type posts = {
 	id: string;
-	name: string;
-	teaser: string;
-	date: Date;
+	title: string;
+	published: Date;
+	updated: Date | null;
+	description: string;
 };
