@@ -1,1 +1,1 @@
-A simple block made with SvelteKit 
+A simple blog made with SvelteKit
