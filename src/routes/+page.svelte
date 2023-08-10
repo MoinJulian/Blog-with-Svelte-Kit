@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+	<title>Blog with SvelteKit - Home</title>
+</svelte:head>
+
+<h1>Home</h1>
+
+<p>
+	This is a simple blog made with SvelteKit to share my thoughts about web development and other
+	topics, this post is made with SvelteKit and Markdown It.
+</p>
+
+<p>
+	To see the Blog posts you can click on the middle logo to get to the posts, the right logo is the
+	about page with some information about this project.
+</p>
