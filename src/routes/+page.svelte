@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Blog with SvelteKit - Home</title>
+	<title>Blog with SvelteKit</title>
 </svelte:head>
 
 <h1>Home</h1>

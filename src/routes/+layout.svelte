@@ -6,9 +6,9 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon16x16.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
 
-	<title>MoinJulian</title>
+	<title>Blog with SvelteKit</title>
 </svelte:head>
 
 <LoadProgress />

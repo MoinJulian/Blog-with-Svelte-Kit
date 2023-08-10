@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	import logo from '$lib/assets/MoinJulian.png';
 	import ThemeToggler from './ThemeToggler.svelte';
 
 	import Fa from 'svelte-fa';

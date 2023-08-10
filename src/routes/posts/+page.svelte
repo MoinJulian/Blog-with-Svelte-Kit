@@ -1,11 +1,15 @@
 <script lang="ts">
-	import PostPreview from "./PostPreview.svelte";
+	import PostPreview from './PostPreview.svelte';
 
 	export let data;
 	const { posts } = data;
 </script>
 
-<h1>Blog</h1>
+<svelte:head>
+	<title>Blog with SvelteKit | Posts</title>
+</svelte:head>
+
+<h1>Posts</h1>
 
 <p>Here you find thoughts and tutorials on web development.</p>
 

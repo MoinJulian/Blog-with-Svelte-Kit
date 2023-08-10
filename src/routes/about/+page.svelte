@@ -42,14 +42,3 @@
 		target="_blank"><tt>front-matter</tt></a
 	>.
 </p>
-<p>
-	Made by <a
-		target="_blank"
-		href="https://www.github.com/ScriptRaccoon">Script Raccoon</a
-	>. You can find the code on
-	<a
-		target="_blank"
-		href="https://www.github.com/ScriptRaccoon/sveltekit-blog"
-		>GitHub</a
-	>.
-</p>
